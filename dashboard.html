@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KBL Dashboard</title>
+</head>
+<body class="body">
+    <h1 style="text-align: center; color: orange;" class="accordion-header" id="headingOne">KARIBU GROCERIES LIMITED</h1>
+    <div class="container-fluid mt-2" id="Menu">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header text kgl-headers">
+                        <h4 style="color: orange;">Menu</h4>
+                    </div>
+                    <div class="card-body" >
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="/dashboard.html">Dashboard</a></li>
+                            <li class="list-group-item">Companies</li>
+                            <li class="list-group-item">Users</li>
+                            <li class="list-group-item"> <a href="/products.html">Products</a></li>
+                            <li class="list-group-item">Payments</li>
+                            <li class="list-group-item">Sales</li>
+                            <li class="list-group-item"><a href="/index.html">Logout</a></li
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <h1 style="color: orange;">Dashboard</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div style="background-color: orange;"class="card-header">
+                                <h4>Companies</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>15</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div style="background-color: orange;"class="card-header">
+                                <h4><a href="user.html">Users</a></h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>28</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/products.html">
+                            <div class="card">
+                                <div style="background-color: orange;"class="card-header">
+                                    <h4>Products</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1>5</h1>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+
+                <div class="row mt-2">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header"style="background-color: orange;">
+                                <h4>Sales</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>0-100%</h1>
+                                <input type="range">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"> 
+                        <div class="card">
+                            <div class="card-header"style="background-color: orange;">
+                                <h4>Profits</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>0-100%</h1>
+                                <input type="range">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div style="background-color: orange;"class="card-header">
+                                <h4>QUALITY</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1>Poor-Best</h1>
+                                <input type="range">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col">
+                        <div class="card">
+                            <div style="background-color: orange;"class="card-header">
+                                <h4>Latest Sales</h4>
+                            </div>
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Branch</th>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Prices (UGX)</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Matugga</td>
+                                        <td>Soya peas</td>
+                                        <td>50,000</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Maganjo</td>
+                                        <td>G-nuts</td>
+                                        <td>170,000</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Matugga</td>
+                                        <td>Maize</td>
+                                        <td>150,000</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Maganjo</td>
+                                        <td>Beans</td>
+                                        <td>150,000</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+   
+    <h1 style="color: orange;">COMPANY STATISTICS</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="images/pie2.jpg" alt="" style="width:600px; height: 500px;">
+
+            </div>
+            <div class="col">
+                <img src="images/graphs-for-online-grocery-e.jpg" alt="" style="width: 600px;height: 500px;border-radius: 5%;">
+            </div>
+        </div>
+    </div>
+    <div id="spinner2">
+
+    </div>
+    <h1 style="color: orange;"></h1>
+    <div class="container">
+    <div class="row">
+    <div class="col">
+    <div class="card">
+        <div style="background-color: orange;"class="card-header">
+            <h1>Growth Sales</h1>
+        </div>
+        <div class="card-body">
+            <img src="/images/exponential-growth-curves2x.webp"style="width:500px;height: 400px;">
+        </div>
+        <h1 style="color: orange;"></h1>
+            <div class="col">
+                <div class="card">
+                    <div style="background-color: orange;"class="card-header">
+                        <h1>Organizational monthly Sales</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="/images/graphs_and_charts.jpg"style="width:500px;height: 400px;">
+                        <div class="spinner">
+                            <h3 style="color: orange;text-align:center; font-size: x-large;">
+                                KGL GROCERIES LTD   
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="background-color: aliceblue;">
+                <div class="row">
+                    <div class="col">
+                        <h1>Our Locations</h1>
+                        <img src="/images/pin.webp" alt=""style="border-radius:10%;">
+                    </div>
+                    <div class="col">
+                        <h1>Areas of our Supply</h1>
+                        <img src="/images/locations.jpg" style="width: 400px;height: 300px;border-radius:10%;">
+                    </div>
+ 
+                </div>
+            </div>
+            <div class="container" style="background-color:aliceblue;">
+                <div class="row">
+                    <div class="col">
+                        <h1>Customer satisfaction</h1>
+                        <img src="/images/Emoji_Icon_-_Smiling_grande.webp" alt=""style="width: 300px; height:300px ;">
+                    </div>
+                    <div class="col">
+                        <h1>Catch Phrase</h1>
+                        <img src="/images/feed.png" style="width: 400px;height: 300px;border-radius:10%;">
+                    </div>
+                </div>
+            </div>
+            <footer style="background-color: black;">
+                <h2 style="text-align: center;color:aliceblue;">KGL Company</h2>
+                <ul>
+                    <a href=""><li>terms and conditions </li></a>
+                    <a href=""><li>Policies</li></a>
+                    <a href=""><li>Services</li></a>
+                    <a href=""><li>FAQS</li></a>
+                </ul>
+                
+
+            </footer>
+
+
+</body>
+</html>
