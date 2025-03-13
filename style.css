@@ -19,7 +19,7 @@ ul{
   border-radius: 50%;
   animation: infinite 2s;
   transition: 2s;
-  border: 5px solid orange;
+  border: 5px solid rgb(166, 236, 97);
   border-bottom: transparent;
   padding:10px;
 }
@@ -31,7 +31,10 @@ ul{
 
 }
 .index{
-  background:linear-gradient(bisque,plum);
+  background: url(./images/backdrop.jpg);
+  color: black;
+  
+  
   
 }
 .index:hover{
